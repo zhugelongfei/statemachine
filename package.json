@@ -10,5 +10,17 @@
   },
   "dependencies": {
     
-  }
+  },
+  "samples": [
+    {
+      "displayName": "SimpleFSM",
+      "description": "Click button to switch state",
+      "path": "Samples~/SimpleFSM"
+    },
+    {
+      "displayName": "FSMWithTriggerSystem",
+      "description": "Click button to switch state, but use trigger system to check switch",
+      "path": "Samples~/FSMWithTriggerSystem"
+    }
+  ]
 }
