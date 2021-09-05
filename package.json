@@ -1,0 +1,14 @@
+{
+  "name": "com.lonfee.statemachine",
+  "version": "1.0.0",
+  "displayName": "Lonfee Finite State Machine",
+  "description": "Finite State Machine for unity.",
+  "hideInEditor": false,
+  "author": {
+    "name": "Lonfee",
+    "email": "18519720472@163.com"
+  },
+  "dependencies": {
+    
+  }
+}
