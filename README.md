@@ -1,18 +1,17 @@
-# Process system for unity(C#)
+# FSM for unity(C#)
 
 # 介绍
-流程管理器是一个基于C#语言实现的管理流水线流程执行的代码框架。
+有限状态机框架。
 此工程为Unity Package的Git包，可通过Unity的PackageManagerWindow导入到需要使用的项目中。
 
 # Unity导入步骤
 - 在Unity中点击菜单栏的Window->Package Manager打开PackageManager面板
 - 点击Add package from git url
-- 复制git工程的地址，粘贴到输入栏
+- 复制git工程的地址，粘贴到输入栏，末尾加上#SemVer(e.g. #1.0.0)
 - 点击Add
 
 # 应用场景
-- 游戏登录后，先弹出七日签到界面，七日签到界面关闭后，弹出首充，等流程
+- 单位状态切换，例如从Idle状态，切换到Run，或其他状态等
 - ...
 
-# 框架结构图
-![Frame](/Images/Frame.png)
+> Note：FSM不允许外部任意地方调用SwitchState的函数。只有State内部可调用SwitchState，以便于后续功能开发维护，能够直观的看到状态是如何切换的

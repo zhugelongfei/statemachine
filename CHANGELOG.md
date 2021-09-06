@@ -1,7 +1,9 @@
-# A star
+# Lonfee Finite State Machine
 
-## [1.0.0] - 2021-09-03
+## [1.0.0] - 2021-09-06
 
-### This is the first release of *Unity Package AStar*.
+### This is the first release of *Unity Package FSM*.
 
-basic system upload.
+- frame upload.
+- sample-simplefsm upload.
+- sample-fsmwithtriggersystem upload.
